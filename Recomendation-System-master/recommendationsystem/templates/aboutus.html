@@ -1,0 +1,58 @@
+{%extends 'base.html'%}
+{%block body%}
+{%load static%}
+<style>
+    .img-wrap img{
+        padding: 10px;
+        border-radius:80%;
+        box-shadow: 0 0 10px #999999;
+    }
+
+     .img-wrapp img{
+        padding: 10px;
+        border-radius:80%;
+
+    }
+</style>
+
+<div class="bg-light">
+  <div class="container py-5">
+    <div class="row h-100 align-items-center py-5">
+      <div class="col-lg-6">
+        <h1 class="display">Mr. Deepak Patil</h1>
+        <p class="lead text-muted mb-0">Hello there. This is my demo project in places recommendation system using collaborative filtering. For the demo purpose, i have only included limited images of different places of India. Here, you can search the places, give rating, register, login and fill the form in contact us page.  </p>
+
+      </div>
+      <div class="col-lg-6 d-none d-lg-block img-wrap"><img src="{%static 'https://photos.app.goo.gl/oVpCWjbBxByBPfFH8'%}" alt="" class="img-fluid">
+
+          <ul class="social mb-0 list-inline mt-3 text-center">
+            <li class="list-inline-item"><a href="https://x.com/DSPATIL75553258?t=tOwG3Q8tC31iKPZFCvmn8g&s=09" class="social-link"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/deepak_404_error?igsh=NGVhN2U2NjQ0Yg==/" class="social-link"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/deepak-patil-15b254218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="bg-white py-5">
+  <div class="container py-5">
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6 order-2 order-lg-1 img-wrapp"><img src="{%static 'https://images.app.goo.gl/qy8cMKgEtu73SYG7A'%}" alt="" class="img-fluid"></i>
+        <h2 class="font-weight-light">Special Thanks . . .</h2>
+        <hr>
+        <h4 class="font-weight-light">North Maharashtra University Jalgaon, Maharashtra,India</h4>
+        <p class="font-italic text-muted mb-4">I am Post Graduate Master Degree Holder in Computer Sceence from North Maharashtra University Jalgaon. It is situated in India. It is an amazing University with lots of friendly and talented  teachers. The courses are better than other colleges and it completely follows UGC teaching techniques.</p><a href="https://heraldcollege.edu.np/" class="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
+      </div>
+      <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2 "><img src="{%static 'images/her.png'%}" alt="" class="img-fluid mb-4 mb-lg-0"></div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+{%endblock%}
